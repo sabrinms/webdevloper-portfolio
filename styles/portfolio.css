@@ -7,11 +7,19 @@ body{
     color: #FD6E0A;
 }
 .btn-primary{
-    border-radius: 5px;
-background: #FD6E0A;
-}
+            border-radius: 5px;
+            background: #FD6E0A;
+           border: 0;
+           color: white;
+           font-size: 100px;
+            font-weight: 700;
+            padding: 15px 35px;
+
+            }
 nav{
     display: flex;
+    justify-content: space-between ;
+    align-items: center;
 }
 .nav-title {
     color: Dark 01;
@@ -21,6 +29,7 @@ font-weight: 700;
 }
 nav > ul {
     display: flex;
+    align-items: center;
 }
 nav li {
     list-style: none;
